@@ -1,0 +1,110 @@
+[
+    {
+        "pk": "acecc973-2bfb-429c-8202-f3189e643631",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "color-fundus-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/color-fundus"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "retinal-vessel-segmentation",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/vessel-segmentation"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "762e0cdd-cdb4-46f3-99c5-3ba5e9597dd0",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "color-fundus-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/color-fundus"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "retinal-vessel-segmentation",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/vessel-segmentation"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "27f4d393-11e7-4ea5-97a3-20b1e6c3c6ea",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "color-fundus-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/color-fundus"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "retinal-vessel-segmentation",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/vessel-segmentation"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    }
+]

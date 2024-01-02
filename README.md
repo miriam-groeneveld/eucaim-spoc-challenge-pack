@@ -1,14 +1,17 @@
+> [!NOTE]  
+> This is a demo challenge pack. It is meant to showcase what a challenge pack contains. The algorithm mission in this case is to segment vessels on retinal images.
+
 # 📦 demo challenge pack
-Thank you for hosting your challenge on Grand-Challenge.org. We appreciate it!
+Thank you for hosting your challenge on Grand-Challenge.org, we appreciate it!
 
 ## Content
 
-This Challenge Pack is a collection of challenge-tailored examples to help you on your
-way to hosting your demo challenge.
+This Challenge Pack is a collection of challenge-tailored examples to help you with your
+way to host your demo challenge.
 
 It contains the following:
 * ️🦾 An example script to _automate uploading_ data to an archive
-* 🦿 An example _submission algorithm_ that can be uploaded to run as a submission in a challenge-phase
+* 🦿 An example _submission algorithm_ that can be uploaded to run as a submission in a challenge phase
 * 🧮 An example _evaluation method_ that evaluates algorithm submissions and generates performance
   metrics for ranking
 

@@ -29,7 +29,7 @@ from pprint import pformat, pprint
 
 INPUT_DIRECTORY = Path("/input")
 OUTPUT_DIRECTORY = Path("/output")
-GROUND_TRUTH_DIRECTORY = Path("/tmp/ground_truth")
+GROUND_TRUTH_DIRECTORY = Path("ground_truth")
 
 
 def main():

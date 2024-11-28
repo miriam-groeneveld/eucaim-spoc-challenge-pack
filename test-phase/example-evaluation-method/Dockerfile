@@ -1,7 +1,7 @@
-FROM --platform=linux/amd64 docker.io/library/python:3.11-slim
+FROM --platform=linux/amd64 docker.io/library/python:3.11-slim AS example-evaluation-amd64
 
 # Ensures that Python output to stdout/stderr is not buffered: prevents missing information when terminating
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1
 
 RUN groupadd -r user && useradd -m --no-log-init -r -g user user
 USER user
@@ -18,6 +18,10 @@ RUN python -m pip install \
     --no-color \
     --requirement /opt/app/requirements.txt
 
+COPY --chown=user:user helpers.py /opt/app/
 COPY --chown=user:user evaluate.py /opt/app/
+
+# Setting this will limit the number of workers used by the evaluate.py
+ENV GRAND_CHALLENGE_MAX_WORKERS=
 
 ENTRYPOINT ["python", "evaluate.py"]

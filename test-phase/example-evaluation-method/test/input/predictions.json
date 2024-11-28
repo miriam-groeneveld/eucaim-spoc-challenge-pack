@@ -1,6 +1,6 @@
 [
     {
-        "pk": "5bda8c0f-121a-4f4c-9309-0d6507de571f",
+        "pk": "67619bda-886e-4aac-bf3e-7a7eef5855e4",
         "inputs": [
             {
                 "file": null,
@@ -12,7 +12,20 @@
                     "slug": "color-fundus-image",
                     "kind": "Image",
                     "super_kind": "Image",
-                    "relative_path": "images/color-fundus"
+                    "relative_path": "images/color-fundus",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": null,
+                "value": 42,
+                "interface": {
+                    "slug": "age-in-months",
+                    "kind": "Integer",
+                    "super_kind": "Value",
+                    "relative_path": "age-in-months.json",
+                    "example_value": 42
                 }
             }
         ],
@@ -24,19 +37,20 @@
                 },
                 "value": null,
                 "interface": {
-                    "slug": "retinal-vessel-segmentation",
+                    "slug": "binary-vessel-segmentation",
                     "kind": "Segmentation",
                     "super_kind": "Image",
-                    "relative_path": "images/vessel-segmentation"
+                    "relative_path": "images/binary-vessel-segmentation",
+                    "example_value": null
                 }
             }
         ],
         "status": "Succeeded",
-        "started_at": "2023-11-29T10:31:25.691799Z",
-        "completed_at": "2023-11-29T10:31:50.691799Z"
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
     },
     {
-        "pk": "b0b52eb5-d5f2-4a2d-9f1f-ab6317960bd8",
+        "pk": "39043ab9-6017-4733-9475-a1a502374b98",
         "inputs": [
             {
                 "file": null,
@@ -48,7 +62,20 @@
                     "slug": "color-fundus-image",
                     "kind": "Image",
                     "super_kind": "Image",
-                    "relative_path": "images/color-fundus"
+                    "relative_path": "images/color-fundus",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": null,
+                "value": 42,
+                "interface": {
+                    "slug": "age-in-months",
+                    "kind": "Integer",
+                    "super_kind": "Value",
+                    "relative_path": "age-in-months.json",
+                    "example_value": 42
                 }
             }
         ],
@@ -60,19 +87,20 @@
                 },
                 "value": null,
                 "interface": {
-                    "slug": "retinal-vessel-segmentation",
+                    "slug": "binary-vessel-segmentation",
                     "kind": "Segmentation",
                     "super_kind": "Image",
-                    "relative_path": "images/vessel-segmentation"
+                    "relative_path": "images/binary-vessel-segmentation",
+                    "example_value": null
                 }
             }
         ],
         "status": "Succeeded",
-        "started_at": "2023-11-29T10:31:25.691799Z",
-        "completed_at": "2023-11-29T10:31:50.691799Z"
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
     },
     {
-        "pk": "09c3adb0-780c-450a-9e21-3e1bbcd610e8",
+        "pk": "c5ee6752-5767-41a2-b39d-552a7da6ad69",
         "inputs": [
             {
                 "file": null,
@@ -84,7 +112,20 @@
                     "slug": "color-fundus-image",
                     "kind": "Image",
                     "super_kind": "Image",
-                    "relative_path": "images/color-fundus"
+                    "relative_path": "images/color-fundus",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": null,
+                "value": 42,
+                "interface": {
+                    "slug": "age-in-months",
+                    "kind": "Integer",
+                    "super_kind": "Value",
+                    "relative_path": "age-in-months.json",
+                    "example_value": 42
                 }
             }
         ],
@@ -96,15 +137,16 @@
                 },
                 "value": null,
                 "interface": {
-                    "slug": "retinal-vessel-segmentation",
+                    "slug": "binary-vessel-segmentation",
                     "kind": "Segmentation",
                     "super_kind": "Image",
-                    "relative_path": "images/vessel-segmentation"
+                    "relative_path": "images/binary-vessel-segmentation",
+                    "example_value": null
                 }
             }
         ],
         "status": "Succeeded",
-        "started_at": "2023-11-29T10:31:25.691799Z",
-        "completed_at": "2023-11-29T10:31:50.691799Z"
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
     }
 ]

@@ -33,17 +33,17 @@ Happy uploading!
 from pathlib import Path
 
 import gcapi
-
+import json
 
 API_TOKEN = "REPLACE-ME-WITH-YOUR-TOKEN"
 
 ARCHIVE_SLUG = "demo-challenge"
 
 EXPECTED_CASES = [
-    # for: color-fundus-image
-    ["file0.example"],
-    ["file1.example"],
-    ["file2.example"],
+    # for: color-fundus-image, age-in-months
+    ["case0/file0.example", "case0/file1.example"],
+    ["case1/file0.example", "case1/file1.example"],
+    ["case2/file0.example", "case2/file1.example"],
 ]
 
 
@@ -85,6 +85,7 @@ def upload_files():
 def map_case_content_to_interfaces(case):
     return {
         "color-fundus-image": [Path(case[0])],
+        "age-in-months": json.loads(Path(case[1]).read_text()),
     }
 
 
